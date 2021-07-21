@@ -1,12 +1,11 @@
 .App {
   text-align: center;
-  justify-content: center;
 
 }
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 91vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -26,14 +25,18 @@
 
 #more, #menus, #hours {
     float: left;
+    padding: 0.5rem;
 }
 
-#takeout {
-    margin-right: 6rem;
+
+#reservations, #takeout {
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    float: left;
 }
 
 #home {
-    float: right;
-    align-items: right;
-    justify-content: right;
+    padding-right: 11.5rem;
+
 }

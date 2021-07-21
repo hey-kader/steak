@@ -18,12 +18,9 @@ class App extends Component {
           <Router>
               <div className="nav-bar">
                   <nav>
-                      <Link id="menus" className="App-link" to="/menus">menus</Link>
-                      <Link id="hours" className="App-link" to="/hours">hours</Link>
-                      <Link id="more" className="App-link" to="/more" >more</Link>
                       <Link id="reservations" className="App-link" to="/reservations">reservations</Link>
                       <Link id="takeout" className="App-link" to="/takeout">takeout</Link>
-                      <Link id="home" className="App-link" to="/">home</Link>
+                      <Link id="home" className="App-link" to="/" />
                   </nav>
               </div>
               <header className="App-header">
@@ -37,7 +34,13 @@ class App extends Component {
                           <Route exact path="/more" component={More} />
                       </Switch>
               </header>
-
+              <footer>
+                  <nav>
+                      <Link id="menus" className="App-link" to="/menus">menus</Link>
+                      <Link id="hours" className="App-link" to="/hours">hours</Link>
+                      <Link id="more" className="App-link" to="/more" >more</Link>
+                  </nav>
+              </footer>
           </Router>
         </div>
       );
