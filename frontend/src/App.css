@@ -3,9 +3,13 @@
 
 }
 
+@media only screen and min-height (400px)  {
+  min-height: 80vh;
+}
+
 .App-header {
   background-color: #282c34;
-  min-height: 91vh;
+  min-height: 90vh;
   display: flex;
   align-items: center;
   justify-content: center;
