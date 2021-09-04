@@ -25,9 +25,9 @@ app.get ('/' , function (req, res) {
 
 
 
-//app.listen(PORT, IP, function () {
-//console.log('listening at '+IP+':'+PORT)
-//})
+app.listen(PORT, IP, function () {
+  console.log('listening at '+ip+':'+port)
+})
 
 const credentials = {
   key: fs.readFileSync('rittenhouse.restaurant.key'),
